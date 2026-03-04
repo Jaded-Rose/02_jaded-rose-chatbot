@@ -28,15 +28,17 @@ import signal
 import sys
 from typing import Any
 
-from openai import OpenAI
-
 from agent_tools import Blocklist, Memory
 from agent_tools.pinecone import get_index, query_chunks
 from comms.telegram import (
     telegram_send_message,
     telegram_send_typing,
+)
+from comms.telegram import (
     trigger as telegram_trigger,
 )
+from openai import OpenAI
+
 from config import ConfigError, Settings
 
 log = logging.getLogger("jaded-rose-bot")
