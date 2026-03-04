@@ -92,7 +92,8 @@ class JadedRoseBot:
                 {"role": "user", "content": prompt},
             ],
         )
-        return response.choices[0].message.content.strip().upper()
+        content = response.choices[0].message.content
+        return content.strip().upper() if content else "BLOCKED"
 
     def _retrieve_context(self, prompt: str) -> list[dict]:
         return query_chunks(
@@ -114,7 +115,7 @@ class JadedRoseBot:
             model=self._cfg.chat_model,
             messages=messages,
         )
-        return response.choices[0].message.content
+        return response.choices[0].message.content or ""
 
     # -- message handling -----------------------------------------------------
 
@@ -124,7 +125,7 @@ class JadedRoseBot:
             return
 
         chat_id: int = msg["chat"]["id"]
-        sender = msg.get("sender", {})
+        sender = msg.get("from", {})
         log.info("Message from %s (chat %s): %s", sender.get("first_name", "?"), chat_id, prompt[:80])
 
         telegram_send_typing(chat_id)
@@ -147,9 +148,8 @@ class JadedRoseBot:
                 chunks = self._retrieve_context(prompt)
                 log.info("Retrieved %d chunks (top score: %.3f)", len(chunks), chunks[0]["score"] if chunks else 0)
                 answer = self._generate_answer(prompt, chunks, memory)
-
-        memory.save("user", prompt)
-        memory.save("assistant", answer)
+                memory.save("user", prompt)
+                memory.save("assistant", answer)
 
         telegram_send_message(text=answer, chat_id=chat_id)
         log.info("Reply sent to chat %s", chat_id)
