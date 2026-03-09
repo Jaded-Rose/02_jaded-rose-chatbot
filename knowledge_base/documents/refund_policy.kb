@@ -1,0 +1,83 @@
+JADED ROSE — CANONICAL KNOWLEDGE BASE (REFUND POLICY)
+Chunk delimiter:
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_overview
+TYPE: legal
+TITLE: Return policy overview and eligibility
+TAGS: return, refund, 15 days, policy, eligibility, unworn, tags, packaging, receipt, condition
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+We have a 15-day return policy, which means you have 15 days after receiving your item to request a return.
+
+To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You'll also need the receipt or proof of purchase.
+
+If any items arrive back to us with any undisclosed damage, we are unable to process a refund. Please ensure to report damaged items upon receipt.
+
+Damage includes and may not be limited to any stains, marks, strong odours such as smoke or perfume, rips and other signs of wear.
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_uk_returns
+TYPE: support
+TITLE: How to return items (UK)
+TAGS: return, uk, how to, returns label, royal mail, account, portal, 15 working days, order number
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+Purchasing within UK
+
+To start a return please use the returns label provided in your original packing, if this has been misplaced please follow the below instructions.
+
+Go to your account with us by entering your email into the account portal, select the order you wish to return and submit a request. Once your return is accepted, a Royal Mail returns label and instructions on how to send your package will be sent to you. Once your return is sent back to us, please allow 15 working days for us to process your refund.
+
+Items sent back to us without an order number, or any original documentation, will not be accepted as we are otherwise unable to identify the original order.
+
+You can always contact us further at hello@jadedrose.co.uk
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_international
+TYPE: legal
+TITLE: International returns
+TAGS: international, returns, overseas, outside uk, abroad, courier
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+We are unable to provide a returns courier for orders purchased outside of the UK, please contact us at hello@jadedrose.co.uk for more information on how to proceed with international returns.
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_damages
+TYPE: support
+TITLE: Damaged or defective items
+TAGS: damaged, defective, wrong item, faulty, inspect, issue, complaint
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+Please inspect your order upon receiving, and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can resolve the issue accordingly.
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_no_exchanges
+TYPE: legal
+TITLE: No exchanges policy
+TAGS: exchange, swap, no exchange, return, repurchase
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+We do not offer exchanges. Please return the item and repurchase any additional for a more efficient process.
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_refund_processing
+TYPE: legal
+TITLE: Refund processing
+TAGS: refund, approved, payment method, bank, credit card, how long, processing
+SOURCE: refund_policy.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+We will notify you once we've received and inspected your return, and let you know if the refund was approved or not. If approved, you'll be automatically refunded on your original payment method. Please remember it can take some time for your bank or credit card company to process the refund too.
+--- KB_CHUNK_END ---

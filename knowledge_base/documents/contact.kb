@@ -1,0 +1,29 @@
+JADED ROSE — CANONICAL KNOWLEDGE BASE (CONTACT)
+Chunk delimiter:
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_contact_customer_care
+TYPE: support
+TITLE: Customer care contact details
+TAGS: contact, email, customer care, support, help, hours, monday, friday, bst
+SOURCE: contact.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+Our Customer Care Team are available Monday - Friday 9:00am - 5:00pm BST.
+
+Email: hello@jadedrose.co.uk
+--- KB_CHUNK_END ---
+
+KB_ID: jadedrose_contact_press
+TYPE: support
+TITLE: Press and media contact
+TAGS: press, media, social, contributors, email, pr
+SOURCE: contact.md
+VERSION: 2026-03-09
+PARENT_ID: none
+TEXT:
+Press related queries or potential contributors
+
+Email: social@jadedrose.co.uk
+--- KB_CHUNK_END ---
